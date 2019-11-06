@@ -13,7 +13,8 @@ switch (comando) {
     
     case 'crear':
         crearArchivo(argv.base, argv.limite)
-            .then( archivo => console.log(`Archivo creado ${ archivo.rainbow }`))
+            .then( archivo => console.log(`Archivo creado ${ archivo.rainbow
+             }`))
             .catch(e => console.log(e));
         break;
     
